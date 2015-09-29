@@ -1,0 +1,882 @@
+#EXTM3U
+
+
+#EXTINF:-1, [COLOR green]--ENGLISH TV STREAMS--[/COLOR]
+rtmp://
+
+#EXTINF:-1, AFRICA * GODTV Africa * LQ
+http://ooyalahd2-f.akamaihd.net/i/godtv03_delivery@17352/index_1164_av-b.m3u8?sd=10&rebase=on
+#EXTINF:-1, AFRICA * GODTV Africa * MQ
+http://ooyalahd2-f.akamaihd.net/i/godtv03_delivery@17352/index_1728_av-p.m3u8?sd=10&rebase=on
+#EXTINF:-1, AFRICA * GODTV Africa * HQ
+http://ooyalahd2-f.akamaihd.net/i/godtv03_delivery@17352/index_2528_av-b.m3u8?sd=10&rebase=on
+#ORIGINAL: http://ooyalahd2-f.akamaihd.net/i/godtv03_delivery@17352/master.m3u8
+
+#EXTINF:-1, ASIA * GODTV Asia * LQ
+http://ooyalahd2-f.akamaihd.net/i/godtv05_delivery@17436/index_1164_av-p.m3u8?sd=10&rebase=on
+#EXTINF:-1, ASIA * GODTV Asia * MQ
+http://ooyalahd2-f.akamaihd.net/i/godtv05_delivery@17436/index_1728_av-p.m3u8?sd=10&rebase=on
+#EXTINF:-1, ASIA * GODTV Asia * HQ
+http://ooyalahd2-f.akamaihd.net/i/godtv05_delivery@17436/index_2528_av-b.m3u8?sd=10&rebase=on
+#ORIGINAL: http://ooyalahd2-f.akamaihd.net/i/godtv05_delivery@17436/master.m3u8
+
+#EXTINF:-1, AU * ACCTV - LQ
+http://stream.acctv.com.au/04.m3u8
+#EXTINF:-1, AU * ACCTV - MQ
+http://stream.acctv.com.au/05.m3u8
+#EXTINF:-1, AU * ACCTV - HQ
+http://stream.acctv.com.au/06.m3u8
+#ORIGINAL: http://stream.acctv.com.au/index.m3u8
+
+#EXTINF:-1, AU * GODTV Australasia * LQ
+http://ooyalahd2-f.akamaihd.net/i/godtv04_delivery@17353/index_1164_av-b.m3u8?sd=10&rebase=on
+#EXTINF:-1, AU * GODTV Australasia * MQ
+http://ooyalahd2-f.akamaihd.net/i/godtv04_delivery@17353/index_1728_av-b.m3u8?sd=10&rebase=on
+#EXTINF:-1, AU * GODTV Australasia * HQ
+http://ooyalahd2-f.akamaihd.net/i/godtv04_delivery@17353/index_2528_av-b.m3u8?sd=10&rebase=on
+#ORIGINAL: http://ooyalahd2-f.akamaihd.net/i/godtv04_delivery@17353/master.m3u8
+
+#EXTINF:-1, CA * Miracle Channel
+http://miraclechannel.ios.internapcdn.net/miraclechannel/live_1/miraclechannel/miraclechannel.m3u8
+
+#EXTINF:-1, GR * Word of God
+mms://media.WordofGod.gr/WordofGod150EN
+
+#EXTINF:-1, UK * GODTV UK * LQ
+http://ooyalahd2-f.akamaihd.net/i/godtv02_delivery@17351/index_1164_av-b.m3u8?sd=10&rebase=on
+#EXTINF:-1, UK * GODTV UK * MQ
+http://ooyalahd2-f.akamaihd.net/i/godtv02_delivery@17351/index_1728_av-b.m3u8?sd=10&rebase=on
+#EXTINF:-1, UK * GODTV UK * HQ
+http://ooyalahd2-f.akamaihd.net/i/godtv02_delivery@17351/index_2528_av-p.m3u8?sd=10&rebase=on
+#ORIGINAL: http://ooyalahd2-f.akamaihd.net/i/godtv02_delivery@17351/master.m3u8
+
+#EXTINF:-1, UK * Inspiration TV
+http://bcoveliveios-i.akamaihd.net/hls/live/215091/1897789-2/playlist.m3u8
+
+#EXTINF:-1, UK * Love World TV
+http://154.obj.netromedia.net/LoveWorldtv/LoveWorldtv/playlist.m3u8
+
+#EXTINF:-1, UK * UCB * LQ
+http://llnw.live.simplestream.com/hera/remote/ucbtv_primary_sdi1/2/prog_index.m3u8
+#EXTINF:-1, UK * UCB * MQ
+http://llnw.live.simplestream.com/hera/remote/ucbtv_primary_sdi1/3/prog_index.m3u8
+#EXTINF:-1, UK * UCB * HQ
+http://llnw.live.simplestream.com/hera/remote/ucbtv_primary_sdi1/4/prog_index.m3u8
+#ORIGINAL: http://llnw.live.simplestream.com/hera/remote/ucbtv_primary_sdi1/live.m3u8
+
+#EXTINF:-1, US * 3ABN * MQ
+http://moiptvus-lh.akamaihd.net/i/moiptv1_1@303632/index_300_av-b.m3u8?sd=10&rebase=on
+#EXTINF:-1, US * 3ABN * HQ
+http://moiptvus-lh.akamaihd.net/i/moiptv1_1@303632/index_600_av-b.m3u8?sd=10&rebase=on
+#ORIGINAL: http://moiptvus-lh.akamaihd.net/i/moiptv1_1@303632/master.m3u8
+
+#EXTINF:-1, US * 3ABN Dare to Dream TV * LQ
+http://moiptvus-lh.akamaihd.net/i/moiptv4_1@304499/index_300_av-b.m3u8?sd=10&rebase=on
+#EXTINF:-1, US * 3ABN Dare to Dream TV * MQ
+http://moiptvus-lh.akamaihd.net/i/moiptv4_1@304499/index_600_av-b.m3u8?sd=10&rebase=on
+#EXTINF:-1, US * 3ABN Dare to Dream TV * HQ
+http://moiptvus-lh.akamaihd.net/i/moiptv4_1@304499/index_1200_av-b.m3u8?sd=10&rebase=on
+#ORIGINAL: http://moiptvus-lh.akamaihd.net/i/moiptv4_1@304499/master.m3u8
+
+#EXTINF:-1, US * 3ABN Proclaim TV * LQ
+http://moiptvus-lh.akamaihd.net/i/moiptv3_1@304498/index_300_av-b.m3u8?sd=10&rebase=on
+#EXTINF:-1, US * 3ABN Proclaim TV * MQ
+http://moiptvus-lh.akamaihd.net/i/moiptv3_1@304498/index_600_av-b.m3u8?sd=10&rebase=on
+#EXTINF:-1, US * 3ABN Proclaim TV * HQ
+http://moiptvus-lh.akamaihd.net/i/moiptv3_1@304498/index_1200_av-b.m3u8?sd=10&rebase=on
+#ORIGINAL: http://moiptvus-lh.akamaihd.net/i/moiptv3_1@304498/master.m3u8
+
+#EXTINF:-1, US * 3ABN SonBeam Kids TV * LQ
+http://moiptvus-lh.akamaihd.net/i/moiptv5_1@304500/index_300_av-p.m3u8?sd=10&rebase=on
+#EXTINF:-1, US * 3ABN SonBeam Kids TV * MQ
+http://moiptvus-lh.akamaihd.net/i/moiptv5_1@304500/index_600_av-p.m3u8?sd=10&rebase=on
+#EXTINF:-1, US * 3ABN SonBeam Kids TV * HQ
+http://moiptvus-lh.akamaihd.net/i/moiptv5_1@304500/index_1200_av-p.m3u8?sd=10&rebase=on
+#ORIGINAL: http://moiptvus-lh.akamaihd.net/i/moiptv5_1@304500/master.m3u8
+
+#EXTINF:-1, US * Apostolic Oneness Network
+rtsp://uni5rtmp.tulix.tv:1935/aonliveg19/mystream2
+
+#EXTINF:-1, US * Bible Discovery Channel
+http://fss28.streamhoster.com/lv_rod_tvf1/broadcast1/playlist.m3u8
+
+#EXTINF:-1, US * BVOV Network
+rtmp://bvovlive.origin.netbroadcasting.tv:1935/bvovlive/_definst_/bvov
+
+#EXTINF:-1, US * Christian Youth Channel * MQ
+rtsp://media.az-mediaserver.com:1935/cyc1/cyc1
+#EXTINF:-1, US * Christian Youth Channel * HQ
+rtsp://media.az-mediaserver.com/cyc2/cyc2
+
+#EXTINF:-1, US * Cornerstone TV * LQ
+http://cdn.media9.truegod.tv/cds/ctvnlive/smil:ctvn.smil/chunklist_b528000_sleng.m3u8
+#EXTINF:-1, US * Cornerstone TV * MQ
+http://cdn.media9.truegod.tv/cds/ctvnlive/smil:ctvn.smil/chunklist_b1128000_sleng.m3u8
+#EXTINF:-1, US * Cornerstone TV * HQ
+http://cdn.media9.truegod.tv/cds/ctvnlive/smil:ctvn.smil/chunklist_b2128000_sleng.m3u8
+#ORIGINAL: http://cdn.media9.truegod.tv/cds/ctvnlive/smil:ctvn.smil/playlist.m3u8
+
+#EXTINF:-1, US * Daystar Television * MQ
+http://bcoveliveios-i.akamaihd.net/hls/live/203127/1539097700001/master_360p.m3u8
+#EXTINF:-1, US * Daystar Television * HQ
+http://bcoveliveios-i.akamaihd.net/hls/live/203127/1539097700001/master_720p.m3u8
+
+#EXTINF:-1, US * GODTV USA * LQ
+http://ooyalahd2-f.akamaihd.net/i/godtv01_delivery@17341/index_1164_av-b.m3u8?sd=10&rebase=on
+#EXTINF:-1, US * GODTV USA * MQ
+http://ooyalahd2-f.akamaihd.net/i/godtv01_delivery@17341/index_1728_av-b.m3u8?sd=10&rebase=on
+#EXTINF:-1, US * GODTV USA * HQ
+http://ooyalahd2-f.akamaihd.net/i/godtv01_delivery@17341/index_2528_av-b.m3u8?sd=10&rebase=on
+#ORIGINAL: http://ooyalahd2-f.akamaihd.net/i/godtv01_delivery@17341/master.m3u8
+
+#EXTINF:-1, US * Gospel Broadcasting Network
+http://live.gospelbroadcastingnetwork.net/live/myStream/playlist.m3u8
+
+#EXTINF:-1, US * Hope Channel * LQ
+http://bcliveuniv-lh.akamaihd.net/i/HopeChannel_1@182961/index_1192_av-p.m3u8?sd=10&rebase=on
+#EXTINF:-1, US * Hope Channel * MQ
+http://bcliveuniv-lh.akamaihd.net/i/HopeChannel_1@182961/index_2192_av-p.m3u8?sd=10&rebase=on
+#EXTINF:-1, US * Hope Channel * HQ
+http://bcliveuniv-lh.akamaihd.net/i/HopeChannel_1@182961/index_3192_av-p.m3u8?sd=10&rebase=on
+#ORIGINAL: http://bcliveuniv-lh.akamaihd.net/i/HopeChannel_1@182961/master.m3u8
+
+#EXTINF:-1, US * Hope Channel International * LQ
+http://bcliveuniv-lh.akamaihd.net/i/HopeInternational_1@193092/index_1192_av-p.m3u8?sd=10&rebase=on
+#EXTINF:-1, US * Hope Channel International * MQ
+http://bcliveuniv-lh.akamaihd.net/i/HopeInternational_1@193092/index_2192_av-p.m3u8?sd=10&rebase=on
+#EXTINF:-1, US * Hope Channel International * HQ
+http://bcliveuniv-lh.akamaihd.net/i/HopeInternational_1@193092/index_3192_av-p.m3u8?sd=10&rebase=on
+#ORIGINAL: http://bcliveuniv-lh.akamaihd.net/i/HopeInternational_1@193092/master.m3u8
+
+#EXTINF:-1, US * Hope Church Channel * LQ
+http://bcliveuniv-lh.akamaihd.net/i/HopeInternational_1@193092/index_1192_av-p.m3u8?sd=10&rebase=on
+#EXTINF:-1, US * Hope Church Channel * MQ
+http://bcliveuniv-lh.akamaihd.net/i/HopeInternational_1@193092/index_2192_av-p.m3u8?sd=10&rebase=on
+#EXTINF:-1, US * Hope Church Channel * HQ
+http://bcliveuniv-lh.akamaihd.net/i/HopeInternational_1@193092/index_3192_av-p.m3u8?sd=10&rebase=on
+#ORIGINAL: http://bcliveuniv-lh.akamaihd.net/i/HopeInternational_1@193092/master.m3u8
+
+#EXTINF:-1, US * IHOPKC * LQ
+http://ihoplive-f.akamaihd.net/i/ihopkc_tprhd@142185/index_1500_av-b.m3u8?sd=10&rebase=on
+#EXTINF:-1, US * IHOPKC * MQ
+http://ihoplive-f.akamaihd.net/i/ihopkc_tprhd@142185/index_2500_av-p.m3u8?sd=10&rebase=on
+#EXTINF:-1, US * IHOPKC * HQ
+http://ihoplive-f.akamaihd.net/i/ihopkc_tprhd@142185/index_4001_av-p.m3u8?sd=10&rebase=on
+#ORIGINAL: http://ihoplive-f.akamaihd.net/i/ihopkc_tprhd@142185/master.m3u8
+
+#EXTINF:-1, US * It's Supernatural * LQ
+http://ooyalahd2-f.akamaihd.net/i/chip02_delivery@120189/index_1728_av-p.m3u8?sd=10&rebase=on
+#EXTINF:-1, US * It's Supernatural * MQ
+http://ooyalahd2-f.akamaihd.net/i/chip02_delivery@120189/index_2328_av-p.m3u8?sd=10&rebase=on
+#EXTINF:-1, US * It's Supernatural * HQ
+http://ooyalahd2-f.akamaihd.net/i/chip02_delivery@120189/index_4728_av-p.m3u8?sd=10&rebase=on
+#ORIGINAL: http://ooyalahd2-f.akamaihd.net/i/chip02_delivery@120189/master.m3u8
+
+#EXTINF:-1, US * NRB Network
+http://uni6rtmp.tulix.tv/nrbnetwork/myStream.sdp/playlist.m3u8
+
+#EXTINF:-1, US * Sky Eagle TV * Native American
+rtmp://66.55.152.99:1935/SkyEagleTV/SkyEagleTV.stream-roku
+# WORKS IN WINDOWS WITH VLC, BUT NOT WITH KODI IN LINUX.
+
+#EXTINF:-1, US * SonLife Broadcasting Network
+http://sonlifehls-i.akamaihd.net/hls/live/215283/sonlifehls/iOS/JSMPkg/playlist.m3u8
+
+#EXTINF:-1, US * TBN Church Channel * LQ
+http://acaooyalahd2-lh.akamaihd.net/i/TBN02_delivery@186240/index_564_av-b.m3u8?sd=10&rebase=on
+#EXTINF:-1, US * TBN Church Channel * MQ
+http://acaooyalahd2-lh.akamaihd.net/i/TBN02_delivery@186240/index_1164_av-b.m3u8?sd=10&rebase=on
+#EXTINF:-1, US * TBN Church Channel * HQ
+http://acaooyalahd2-lh.akamaihd.net/i/TBN02_delivery@186240/index_1728_av-b.m3u8?sd=10&rebase=on
+#ORIGINAL: http://acaooyalahd2-lh.akamaihd.net/i/TBN02_delivery@186240/master.m3u8
+
+#EXTINF:-1, US * TBN JUCE Channel * LQ
+http://acaooyalahd2-lh.akamaihd.net/i/TBN03_delivery@186241/index_564_av-b.m3u8?sd=10&rebase=on
+#EXTINF:-1, US * TBN JUCE Channel * MQ
+http://acaooyalahd2-lh.akamaihd.net/i/TBN03_delivery@186241/index_1164_av-b.m3u8?sd=10&rebase=on
+#EXTINF:-1, US * TBN JUCE Channel * HQ
+http://acaooyalahd2-lh.akamaihd.net/i/TBN03_delivery@186241/index_1728_av-b.m3u8?sd=10&rebase=on
+#ORIGINAL: http://acaooyalahd2-lh.akamaihd.net/i/TBN03_delivery@186241/master.m3u8
+
+#EXTINF:-1, US * TBN Online * LQ
+http://acaooyalahd2-lh.akamaihd.net/i/TBN01_delivery@186239/index_1164_av-b.m3u8?sd=10&rebase=on
+#EXTINF:-1, US * TBN Online * MQ
+http://acaooyalahd2-lh.akamaihd.net/i/TBN01_delivery@186239/index_1728_av-b.m3u8?sd=10&rebase=on
+#EXTINF:-1, US * TBN Online * HQ
+http://acaooyalahd2-lh.akamaihd.net/i/TBN01_delivery@186239/index_2528_av-b.m3u8?sd=10&rebase=on
+#ORIGINAL: http://acaooyalahd2-lh.akamaihd.net/i/TBN01_delivery@186239/master.m3u8
+
+#EXTINF:-1, US * TBN Smile Of A Child * LQ
+http://acaooyalahd2-lh.akamaihd.net/i/TBN04_delivery@186242/index_564_av-b.m3u8?sd=10&rebase=on
+#EXTINF:-1, US * TBN Smile Of A Child * MQ
+http://acaooyalahd2-lh.akamaihd.net/i/TBN04_delivery@186242/index_1164_av-b.m3u8?sd=10&rebase=on
+#EXTINF:-1, US * TBN Smile Of A Child * HQ
+http://acaooyalahd2-lh.akamaihd.net/i/TBN04_delivery@186242/index_1728_av-b.m3u8?sd=10&rebase=on
+#ORIGINAL: http://acaooyalahd2-lh.akamaihd.net/i/TBN04_delivery@186242/master.m3u8
+
+#EXTINF:-1, US * The Dove * LQ
+rtsp://s1.thedove.us:1935/theDoveTV/3theDoveTV.sdp
+#EXTINF:-1, US * The Dove * MQ
+rtsp://s1.thedove.us:1935/theDoveTV/2theDoveTV.sdp
+#EXTINF:-1, US * The Dove * HQ
+rtsp://s1.thedove.us:1935/theDoveTV/1theDoveTV.sdp
+
+#EXTINF:-1, US * The Word Network * LQ
+http://thewordlive-lh.akamaihd.net/i/thewordlive_univ@141816/index_450_av-b.m3u8?sd=10&rebase=on
+#EXTINF:-1, US * The Word Network * MQ
+http://thewordlive-lh.akamaihd.net/i/thewordlive_univ@141816/index_850_av-b.m3u8?sd=10&rebase=on
+#EXTINF:-1, US * The Word Network * HQ
+http://thewordlive-lh.akamaihd.net/i/thewordlive_univ@141816/index_2000_av-b.m3u8?sd=10&rebase=on
+#ORIGINAL: http://thewordlive-lh.akamaihd.net/i/thewordlive_univ@141816/master.m3u8
+
+
+
+
+
+
+
+
+#EXTINF:-1, [COLOR blue]--INTERNATIONAL TV STREAMS--[/COLOR]
+rtmp://
+
+#EXTINF:-1, Africa * Angel TV * MQ
+http://d2aga5geamqf7.cloudfront.net/angeltv/angeltvafrica300/playlist.m3u8
+#EXTINF:-1, Africa * Angel TV * HQ
+http://d2aga5geamqf7.cloudfront.net/angeltv/angeltvafrica600/playlist.m3u8
+
+#EXTINF:-1, AL * Albanian * Word of God
+mms://media.WordofGod.gr/WordofGod150AL
+
+#EXTINF:-1, Americas * Spanish * Esperanza TV
+http://bcliveuniv-lh.akamaihd.net/i/Esperanza_1@193090/index_1192_av-p.m3u8
+
+#EXTINF:-1, Asia * Far East * Angel TV * MQ
+http://d1yvjjnpp3nxpt.cloudfront.net/angeltv/angeltvfareast300/playlist.m3u8
+#EXTINF:-1, Asia * Far East * Angel TV * HQ
+http://d1yvjjnpp3nxpt.cloudfront.net/angeltv/angeltvfareast600/playlist.m3u8
+
+#EXTINF:-1, Asia * English + Korean + Tamil + Hindi + Urdu + Farsi + Arabic * Kanal 10 TV Asia
+http://cdn-flash.crossnet.net:1935/kanal10/smil:asia.smil/playlist.m3u8
+
+#EXTINF:-1, AU * Angel TV * MQ
+http://d3lh01nc8ssf6w.cloudfront.net/angeltv/angeltvaustralia300/playlist.m3u8
+#EXTINF:-1, AU * Angel TV * HQ
+http://d3lh01nc8ssf6w.cloudfront.net/angeltv/angeltvaustralia600/playlist.m3u8
+
+#EXTINF:-1, BO * Spanish * Redadvenir * MQ
+rtsp://streamer1.streamhost.org:1935/salive/GMIredadvenirl
+#EXTINF:-1, BO * Spanish * Redadvenir * HQ
+rtsp://streamer1.streamhost.org:1935/salive/GMIredadvenirh
+
+#EXTINF:-1, BR * Portuguese * Angel TV * MQ
+http://d5ys11maps4cw.cloudfront.net/angeltv/angeltvspanish300/playlist.m3u8
+#EXTINF:-1, BR * Portuguese * Angel TV * HQ
+http://d5ys11maps4cw.cloudfront.net/angeltv/angeltvspanish600/playlist.m3u8
+
+#EXTINF:-1, BR * Spanish * Angel TV * MQ
+http://d1p3qwzr8wng0c.cloudfront.net/angeltv/angeltvportuguese300/playlist.m3u8
+#EXTINF:-1, BR * Spanish * Angel TV * HQ
+http://d1p3qwzr8wng0c.cloudfront.net/angeltv/angeltvportuguese600/playlist.m3u8
+
+#EXTINF:-1, BR * Portuguese * Novo Tempo * LQ
+http://stream.novotempo.com:1935/tv/smil:tvnovotempo.smil/chunklist_w1740254915_b512000_slpor.m3u8
+#EXTINF:-1, BR * Portuguese * Novo Tempo * MQ
+http://stream.novotempo.com:1935/tv/smil:tvnovotempo.smil/chunklist_w1740254915_b256000_slpor.m3u8
+#EXTINF:-1, BR * Portuguese * Novo Tempo * HQ
+http://stream.novotempo.com:1935/tv/smil:tvnovotempo.smil/chunklist_w1740254915_b128000_slpor.m3u8
+#ORIGINAL: http://stream.novotempo.com:1935/tv/smil:tvnovotempo.smil/playlist.m3u8
+
+#EXTINF:-1, BR * Portuguese * TV Cristo
+rtsp://stream300.overseebrasil.com.br:1935/live_apostolo_115/_definst_/live_apostolo_115
+
+#EXTINF:-1, CM * French + English * Liberty TV
+rtsp://i5.netformzcdn.com/SUNS2619jukyZcrBtbDx/_definst_/mp4:SUNS_2619jukyZcrBtbDx.sdp
+
+#EXTINF:-1, CN * Angel TV * MQ
+http://d3i2z1jq08t5yo.cloudfront.net/angeltv/angeltvchinese300/playlist.m3u8
+#EXTINF:-1, CN * Angel TV * HQ
+http://d3i2z1jq08t5yo.cloudfront.net/angeltv/angeltvchinese600/playlist.m3u8
+
+#EXTINF:-1, CN * GCN China (North)
+rtmp://61.158.163.74/live/gcn_us_200K.stream
+
+#EXTINF:-1, CN * GCN China (South)
+rtmp://58.221.35.48/live/gcn_us_200K.stream
+
+#EXTINF:-1, CN * Hope Channel China
+http://203.69.85.37/hls-live/livepkgr/_definst_/hopetv/hopestream1.m3u8
+
+#EXTINF:-1, CO * Spanish * Canal 41 ABN
+rtsp://212-123.livestream.com:8080/livestreamiphone/1948118_1669935_3c46043f_1_198@89981
+
+#EXTINF:-1, CO * Spanish * CMB Live * LQ
+http://hd.worldkast.com/8076/smil:8076.smil/chunklist_w26965935_b150000.m3u8
+#EXTINF:-1, CO * Spanish * CMB Live * MQ
+http://hd.worldkast.com/8076/smil:8076.smil/chunklist_w26965935_b350000.m3u8
+#EXTINF:-1, CO * Spanish * CMB Live * HQ
+http://hd.worldkast.com/8076/smil:8076.smil/chunklist_w26965935_b800000.m3u8
+#ORIGINAL: http://hd.worldkast.com/8076/smil:8076.smil/playlist.m3u8
+
+#EXTINF:-1, CR * Spanish * TBN Enlace * LQ
+http://acaooyalahd2-lh.akamaihd.net/i/TBN07_delivery@186245/index_564_av-b.m3u8?sd=10&rebase=on
+#EXTINF:-1, CR * Spanish * TBN Enlace * MQ
+http://acaooyalahd2-lh.akamaihd.net/i/TBN07_delivery@186245/index_1164_av-b.m3u8?sd=10&rebase=on
+#EXTINF:-1, CR * Spanish * TBN Enlace * HQ
+http://acaooyalahd2-lh.akamaihd.net/i/TBN07_delivery@186245/index_1728_av-b.m3u8?sd=10&rebase=on
+#ORIGINAL: http://acaooyalahd2-lh.akamaihd.net/i/TBN07_delivery@186245/master.m3u8
+
+#EXTINF:-1, CR * Spanish * TBN Enlace Juvenil * LQ
+http://acaooyalahd2-lh.akamaihd.net/i/TBN08_delivery@186246/index_564_av-b.m3u8?sd=10&rebase=on
+#EXTINF:-1, CR * Spanish * TBN Enlace Juvenil * MQ
+http://acaooyalahd2-lh.akamaihd.net/i/TBN08_delivery@186246/index_1164_av-b.m3u8?sd=10&rebase=on
+#EXTINF:-1, CR * Spanish * TBN Enlace Juvenil * HQ
+http://acaooyalahd2-lh.akamaihd.net/i/TBN08_delivery@186246/index_1728_av-b.m3u8?sd=10&rebase=on
+#ORIGINAL: http://acaooyalahd2-lh.akamaihd.net/i/TBN08_delivery@186246/master.m3u8
+
+#EXTINF:-1, CZ * Czech * TV NOE * LQ
+http://master-ng.nacevi.cz/cdn.server/PlayerLink.ashx?c=prozeta-live01;176p-1&tm=OVP_iOS&s=rLvOlEIiGEO391da+jmT+Q==&exp=20201212120000&rd=1
+#EXTINF:-1, CZ * Czech * TV NOE * MQ
+http://master-ng.nacevi.cz/cdn.server/PlayerLink.ashx?c=prozeta-live01;288p-1&tm=OVP_iOS&s=cag6YgANZ4nxElZakfSXww==&exp=20201212120000&rd=1
+#EXTINF:-1, CZ * Czech * TV NOE * HQ
+http://master-ng.nacevi.cz/cdn.server/PlayerLink.ashx?c=prozeta-live01;432p-1&tm=OVP_iOS&s=t029oiKhYCyi/7wVpxjKAQ==&exp=20201212120000&rd=1
+
+#EXTINF:-1, DE * German * Hope Channel German * LQ
+http://amsix3.streamkit.tv:80/edge/_definst_/hcd_200/chunklist.m3u8?wowzasessionid=737554171&cn=hcd
+#EXTINF:-1, DE * German * Hope Channel German * MQ
+http://amsix3.streamkit.tv:80/edge/_definst_/hcd_600/chunklist.m3u8?wowzasessionid=612571751&cn=hcd
+#EXTINF:-1, DE * German * Hope Channel German * HQ
+http://amsix3.streamkit.tv:80/edge/_definst_/hcd_1500/chunklist.m3u8?wowzasessionid=515208757&cn=hcd
+#ORIGINAL: http://play.streamkit.tv/content/channel/hcd/live/hcd.player.m3u8
+
+#EXTINF:-1, EE * Russian * Life TV
+mms://online.lifetv.ee/1
+
+#EXTINF:-1, EG * Arabic * ATV Sat * MQ
+rtsp://videos.atvsat.com:1935/atvsatlive/atvsatlive1
+#EXTINF:-1, EG * Arabic * ATV Sat * HQ
+rtsp://videos.atvsat.com:1935/atvsatlive/atvsatlive2
+
+#EXTINF:-1, Europe * Angel TV * MQ
+http://d9dggax283p3i.cloudfront.net/angeltv/angeltveurope300/playlist.m3u8
+#EXTINF:-1, Europe * Angel TV * HQ
+http://d9dggax283p3i.cloudfront.net/angeltv/angeltveurope600/playlist.m3u8
+
+#EXTINF:-1, FI * Finnish * TV7 * LQ
+http://vod.tv7.fi:1935/tv7-fi/smil:tv7-fi.smil/chunklist_w1524893806_b946000.m3u8
+#EXTINF:-1, FI * Finnish * TV7 * MQ
+http://vod.tv7.fi:1935/tv7-fi/smil:tv7-fi.smil/chunklist_w1524893806_b446000.m3u8
+#EXTINF:-1, FI * Finnish * TV7 * HQ
+http://vod.tv7.fi:1935/tv7-fi/smil:tv7-fi.smil/chunklist_w1524893806_b946000.m3u8
+#ORIGINAL: http://vod.tv7.fi:1935/tv7-fi/smil:tv7-fi.smil/playlist.m3u8
+
+#EXTINF:-1, FR * French * 3ABN Francais * LQ
+http://moiptvus-lh.akamaihd.net/i/moiptv6_1@304501/index_300_av-p.m3u8?sd=10&rebase=on
+#EXTINF:-1, FR * French * 3ABN Francais * MQ
+http://moiptvus-lh.akamaihd.net/i/moiptv6_1@304501/index_600_av-p.m3u8?sd=10&rebase=on
+#EXTINF:-1, FR * French * 3ABN Francais * HQ
+http://moiptvus-lh.akamaihd.net/i/moiptv6_1@304501/index_1200_av-p.m3u8?sd=10&rebase=on
+#ORIGINAL: http://moiptvus-lh.akamaihd.net/i/moiptv6_1@304501/master.m3u8
+
+#EXTINF:-1, FR * Arabic + English + French * Al Malakoot Sat 
+rtmp://digital.flash.internapcdn.net/digital/live_1/kingdomtvlive
+
+#EXTINF:-1, FR * Arabic + Berber + French * CNA Sat Live
+http://str81.creacast.com/cna/live.sdp/playlist.m3u8
+
+#EXTINF:-1, FR * French * Word of God
+mms://media.WordofGod.gr/WordofGod150FR
+
+#EXTINF:-1, GR * Greek * 4E TV
+rtmp://82.192.84.30:1935/live/myStream.sdp
+
+#EXTINF:-1, GR * Greek * Fos TV
+mms://144.76.5.122/ch-patra
+
+#EXTINF:-1, GR * Greek * Word of God
+plugin://plugin.video.youtube/?action=play_video&videoid=YXMSBE_jPCE
+
+#EXTINF:-1, HN * Spanish * Iglesia de Cristo Ebenezer
+rtmp://hds4.worldkast.com/ebenezertv2/_definst_/mp4:ebenezertv2_source
+
+#EXTINF:-1, HN * Spanish * JBN TV
+rtmp://hd.worldkast.com:1935/8506/8506
+
+#EXTINF:-1, ID * Indonesian * Bible TV
+plugin://plugin.video.youtube/?action=play_video&videoid=7meg8_9kSS0
+
+#EXTINF:-1, IN * Angel TV * India * MQ
+http://doh57iesfegop.cloudfront.net/angeltv/angeltvindia300/playlist.m3u8
+#EXTINF:-1, IN * Angel TV * India * HQ
+http://doh57iesfegop.cloudfront.net/angeltv/angeltvindia600/playlist.m3u8
+
+#EXTINF:-1, IN * Hope Channel India
+http://bcliveuniv-lh.akamaihd.net/i/HopeIndia_1@193091/index_2192_av-p.m3u8
+
+#EXTINF:-1, IN * English + Hindi + Tamil + Malayalam + Telugu + Kannada + Sinhalab * Rainbow TV
+rtmp://128.199.94.86:1935/live/_definst_/mp4:rainbow.stream_source
+
+#EXTINF:-1, IN * Tamil * Blessing TV
+rtsp://128.199.94.86:1935/blessingtv/myStream
+
+#EXTINF:-1, IN * Kannada + Tamil + Telugu + Malayalam + Hindi + English * New Hope TV
+rtmp://edge-origin.5centscdn.com:1935/newhopelive/_definst_/7d5c6b767d8a851f09f0ad883b2f06ab.sdp
+
+#EXTINF:-1, IN * Telugu * Subhavaartha
+http://live.wmncdn.net/shubhavarthatv/cca558f94400b9001e5726fd1fac8c29.sdp/playlist.m3u8
+
+#EXTINF:-1, IN * LANGUAGE UNKNOWN * VTN Velugu
+http://livestream.5centscdn.com/velugutvlive/88ceb00cdb2be7b7a3c11fb8aaf45761.sdp/playlist.m3u8
+
+#EXTINF:-1, IN * English * U Channel
+rtmp://119.235.249.58:1935/uchannel/live
+
+#EXTINF:-1, IR * Persian * Mohabat TV * MQ
+rtmp://media.mohabat.tv:1935/live_transcoder/_definst_/mp4:mohabat.stream_240p
+#EXTINF:-1, IR * Persian * Mohabat TV * HQ
+rtmp://media.mohabat.tv:1935/live_transcoder/_definst_/mp4:mohabat.stream_360p
+
+#EXTINF:-1, IR * Arabic * TBN Healing Channel * LQ
+http://acaooyalahd2-lh.akamaihd.net/i/TBN06_delivery@186244/index_564_av-b.m3u8?sd=10&rebase=on
+#EXTINF:-1, IR * Arabic * TBN Healing Channel * MQ
+http://acaooyalahd2-lh.akamaihd.net/i/TBN06_delivery@186244/index_1164_av-b.m3u8?sd=10&rebase=on
+#EXTINF:-1, IR * Arabic * TBN Healing Channel * HQ
+http://acaooyalahd2-lh.akamaihd.net/i/TBN06_delivery@186244/index_1728_av-b.m3u8?sd=10&rebase=on
+#ORIGINAL: http://acaooyalahd2-lh.akamaihd.net/i/TBN06_delivery@186244/master.m3u8
+
+#EXTINF:-1, IR * Arabic * TBN Nejat TV * LQ
+http://acaooyalahd2-lh.akamaihd.net/i/TBN05_delivery@186243/index_564_av-b.m3u8?sd=10&rebase=on
+#EXTINF:-1, IR * Arabic * TBN Nejat TV * MQ
+http://acaooyalahd2-lh.akamaihd.net/i/TBN05_delivery@186243/index_1164_av-b.m3u8?sd=10&rebase=on
+#EXTINF:-1, IR * Arabic * TBN Nejat TV * HQ
+http://acaooyalahd2-lh.akamaihd.net/i/TBN05_delivery@186243/index_1728_av-b.m3u8?sd=10&rebase=on
+#ORIGINAL: http://acaooyalahd2-lh.akamaihd.net/i/TBN05_delivery@186243/master.m3u8
+
+#EXTINF:-1, IS * Hebrew * Angel TV * MQ
+http://dlg33q49zkwmc.cloudfront.net/angeltv/angeltvhebrew300/playlist.m3u8
+#EXTINF:-1, IS * Hebrew * Angel TV * HQ
+http://dlg33q49zkwmc.cloudfront.net/angeltv/angeltvhebrew600/playlist.m3u8
+
+#EXTINF:-1, IT * Italian * TBN TCI Italy * LQ
+http://acaooyalahd2-lh.akamaihd.net/i/TBN12_delivery@186250/index_500_av-b.m3u8?sd=10&rebase=on
+#EXTINF:-1, IT * Italian * TBN TCI Italy * MQ
+http://acaooyalahd2-lh.akamaihd.net/i/TBN12_delivery@186250/index_1100_av-b.m3u8?sd=10&rebase=on
+#EXTINF:-1, IT * Italian * TBN TCI Italy * HQ
+http://acaooyalahd2-lh.akamaihd.net/i/TBN12_delivery@186250/index_1600_av-b.m3u8?sd=10&rebase=on
+#ORIGINAL: http://acaooyalahd2-lh.akamaihd.net/i/TBN12_delivery@186250/master.m3u8
+
+#EXTINF:-1, IT * Italian * Word of God
+mms://media.WordofGod.gr/WordofGod150IT
+
+#EXTINF:-1, KR * Korean * CBS
+rtsp://cbs-live.gscdn.com/cbs-live/_definst_/cbs-live.stream
+
+#EXTINF:-1, KR * Korean * CGN TV
+http://cgntv-glive.ofsdelivery.net/live/_definst_/cgntv_eng/playlist.m3u8
+
+#EXTINF:-1, KR * Korean * GCN Korea
+rtmp://livestream-manminflv.ktics.co.kr/livestream/_definst_/gcn_us_200K
+
+#EXTINF:-1, LK * Tamil * NLM TV
+rtmp://edge4.fms.stream24.net:80/nlmtv/tcmedia
+
+#EXTINF:-1, Middle East * Arabic * Al Hayat * LQ
+http://media.islamexplained.com:1935/live/ngrp:ahme.stream_all/chunklist_w253787820_b265536.m3u8
+#EXTINF:-1, Middle East * Arabic * Al Hayat * MQ
+http://media.islamexplained.com:1935/live/ngrp:ahme.stream_all/chunklist_w253787820_b415536.m3u8
+#EXTINF:-1, Middle East * Arabic * Al Hayat * HQ
+http://media.islamexplained.com:1935/live/ngrp:ahme.stream_all/chunklist_w253787820_b565536.m3u8
+#ORIGINAL: http://media.islamexplained.com:1935/live/ngrp:ahme.stream_all/playlist.m3u8
+
+#EXTINF:-1, Middle East * Arabia * Angel TV * MQ
+http://d2o555wug318wz.cloudfront.net/angeltv/angeltvarabia300/playlist.m3u8
+#EXTINF:-1, Middle East * Arabia * Angel TV * MQ
+http://d2o555wug318wz.cloudfront.net/angeltv/angeltvarabia600/playlist.m3u8
+
+#EXTINF:-1, Middle East * Arabic * Hope Channel Middle East * LQ
+http://amsix3.streamkit.tv:80/edge/_definst_/hcmena_200/chunklist.m3u8?wowzasessionid=853422708&cn=hcmena
+#EXTINF:-1, Middle East * Arabic * Hope Channel Middle East * MQ
+http://amsix3.streamkit.tv:80/edge/_definst_/hcmena_600/chunklist.m3u8?wowzasessionid=433890030&cn=hcmena
+#EXTINF:-1, Middle East * Arabic * Hope Channel Middle East * HQ
+http://amsix3.streamkit.tv:80/edge/_definst_/hcmena_1500/chunklist.m3u8?wowzasessionid=719676433&cn=hcmena
+#ORIGINAL: http://play.streamkit.tv/content/channel/hcmena/live/hcmena.player.m3u8
+
+#EXTINF:-1, Middle East * Arabic * SAT-7
+http://unirtmp.tulix.tv:1935/sat7arabic/sat7arabic1/playlist.m3u8
+
+#EXTINF:-1, Middle East * Arabic * SAT-7 KIDS
+http://unirtmp.tulix.tv:1935/sat7kids/sat7kids1/playlist.m3u8
+
+#EXTINF:-1, Middle East * Persian * SAT-7 PARS
+http://unirtmp.tulix.tv:1935/sat7pars/sat7pars1/playlist.m3u8
+
+#EXTINF:-1, NO * Norwegian * Hope Channel Norwegian
+http://media1.adventist.no:1935/live/hope3/playlist.m3u8
+
+#EXTINF:-1, NO * Norwegian * Kanal 10 Norway
+http://cdn-kanal10.crossnet.net:1935/kanal10/mp4:mpegts.stream/playlist.m3u8
+
+#EXTINF:-1, PL * Polish * Word of God
+mms://media.WordofGod.gr/WordofGod150PL
+
+#EXTINF:-1, RO * Romanian * Word of God
+mms://media.WordofGod.gr/WordofGod150RO
+
+#EXTINF:-1, RU * Angel TV * MQ
+http://dh3ovkcu080k6.cloudfront.net/angeltv/angeltvrussia300/playlist.m3u8
+#EXTINF:-1, RU * Angel TV * HQ
+http://dh3ovkcu080k6.cloudfront.net/angeltv/angeltvrussia600/playlist.m3u8
+
+#EXTINF:-1, RU * Russian * 3ABN Russia TV * LQ
+http://moiptvus-lh.akamaihd.net/i/moiptv7_1@304502/index_300_av-p.m3u8?sd=10&rebase=on
+#EXTINF:-1, RU * Russian * 3ABN Russia TV * MQ
+http://moiptvus-lh.akamaihd.net/i/moiptv7_1@304502/index_600_av-p.m3u8?sd=10&rebase=on
+#EXTINF:-1, RU * Russian * 3ABN Russia TV * HQ
+http://moiptvus-lh.akamaihd.net/i/moiptv7_1@304502/index_1200_av-p.m3u8?sd=10&rebase=on
+#ORIGINAL: http://moiptvus-lh.akamaihd.net/i/moiptv7_1@304502/master.m3u8
+
+#EXTINF:-1, RU * Russian * TBN JUCE Russia * LQ
+http://acaooyalahd2-lh.akamaihd.net/i/TBN11_delivery@186249/index_500_av-b.m3u8?sd=10&rebase=on
+#EXTINF:-1, RU * Russian * TBN JUCE Russia * MQ
+http://acaooyalahd2-lh.akamaihd.net/i/TBN11_delivery@186249/index_1100_av-b.m3u8?sd=10&rebase=on
+#EXTINF:-1, RU * Russian * TBN JUCE Russia * HQ
+http://acaooyalahd2-lh.akamaihd.net/i/TBN11_delivery@186249/index_1600_av-b.m3u8?sd=10&rebase=on
+#ORIGINAL: http://acaooyalahd2-lh.akamaihd.net/i/TBN11_delivery@186249/master.m3u8
+
+#EXTINF:-1, RU * Russian * TBN Russia * LQ
+http://acaooyalahd2-lh.akamaihd.net/i/TBN09_delivery@186247/index_500_av-b.m3u8?sd=10&rebase=on
+#EXTINF:-1, RU * Russian * TBN Russia * MQ
+http://acaooyalahd2-lh.akamaihd.net/i/TBN09_delivery@186247/index_1100_av-b.m3u8?sd=10&rebase=on
+#EXTINF:-1, RU * Russian * TBN Russia * HQ
+http://acaooyalahd2-lh.akamaihd.net/i/TBN09_delivery@186247/index_1600_av-b.m3u8?sd=10&rebase=on
+#ORIGINAL: http://acaooyalahd2-lh.akamaihd.net/i/TBN09_delivery@186247/master.m3u8
+
+#EXTINF:-1, RU * Russian * TBN Smile Of A Child * LQ
+http://acaooyalahd2-lh.akamaihd.net/i/TBN10_delivery@186248/index_500_av-b.m3u8?sd=10&rebase=on
+#EXTINF:-1, RU * Russian * TBN Smile Of A Child * MQ
+http://acaooyalahd2-lh.akamaihd.net/i/TBN10_delivery@186248/index_1100_av-b.m3u8?sd=10&rebase=on
+#EXTINF:-1, RU * Russian * TBN Smile Of A Child * HQ
+http://acaooyalahd2-lh.akamaihd.net/i/TBN10_delivery@186248/index_1600_av-b.m3u8?sd=10&rebase=on
+#ORIGINAL: http://acaooyalahd2-lh.akamaihd.net/i/TBN10_delivery@186248/master.m3u8
+
+#EXTINF:-1, RU * Russian * Word of God
+mms://media.WordofGod.gr/WordofGod150RU
+
+#EXTINF:-1, South America * Spanish * Nuevo Tiempo * LQ
+http://stream.novotempo.com:1935/tv/smil:tvnuevotiempo.smil/chunklist_w1568474673_b128000_slspa.m3u8
+#EXTINF:-1, South America * Spanish * Nuevo Tiempo * MQ
+http://stream.novotempo.com:1935/tv/smil:tvnuevotiempo.smil/chunklist_w1568474673_b256000_slspa.m3u8
+#EXTINF:-1, South America * Spanish * Nuevo Tiempo * HQ
+http://stream.novotempo.com:1935/tv/smil:tvnuevotiempo.smil/chunklist_w1568474673_b512000_slspa.m3u8
+#ORIGINAL: http://stream.novotempo.com:1935/tv/smil:tvnuevotiempo.smil/playlist.m3u8
+
+#EXTINF:-1, SV * Spanish * Canal 17 * LQ
+http://streamingcontrol.com:1935/tbbcentral/l1v1.sdp_160p/playlist.m3u8
+#EXTINF:-1, SV * Spanish * Canal 17 * MQ
+http://streamingcontrol.com:1935/tbbcentral/l1v1.sdp_360p/playlist.m3u8
+#EXTINF:-1, SV * Spanish * Canal 17 * HQ
+http://streamingcontrol.com:1935/tbbcentral/l1v1.sdp_640/playlist.m3u8
+
+#EXTINF:-1, SV * Spanish * Canal 27
+rtsp://cdn.siscompnetwork.com:1935/app/canal27.sdp
+
+#EXTINF:-1, TR * Turkish * SAT-7 TURK
+http://unirtmp.tulix.tv:1935/sat7turk/sat7turk1/playlist.m3u8
+
+#EXTINF:-1, US * Spanish * 3ABN Latino TV * LQ
+http://moiptvus-lh.akamaihd.net/i/moiptv2_1@304497/index_300_av-b.m3u8?sd=10&rebase=on
+#EXTINF:-1, US * Spanish * 3ABN Latino TV * MQ
+http://moiptvus-lh.akamaihd.net/i/moiptv2_1@304497/index_600_av-b.m3u8?sd=10&rebase=on
+#EXTINF:-1, US * Spanish * 3ABN Latino TV * HQ
+http://moiptvus-lh.akamaihd.net/i/moiptv2_1@304497/index_1200_av-b.m3u8?sd=10&rebase=on
+#ORIGINAL: http://moiptvus-lh.akamaihd.net/i/moiptv2_1@304497/master.m3u8
+
+#EXTINF:-1, US * Spanish * Almavision TV * MQ
+http://cdn3.iviplanet.com:1935/Almavision/_definst_/smil:almavision.smil/chunklist_w1048678312_b350.m3u8
+#EXTINF:-1, US * Spanish * Almavision TV * HQ
+http://cdn3.iviplanet.com:1935/Almavision/_definst_/smil:almavision.smil/chunklist_w1048678312_b800.m3u8
+#ORIGINAL: http://encoder.iviplanet.com:1935/iosplaylist?application/Almavision.m3u8
+
+#EXTINF:-1, US * Angel TV * USA * MQ
+http://d29mskf9v7l751.cloudfront.net/angeltv/angeltvusa300/playlist.m3u8
+#EXTINF:-1, US * Angel TV * USA * HQ
+http://d29mskf9v7l751.cloudfront.net/angeltv/angeltvusa600/playlist.m3u8
+
+#EXTINF:-1, USA/Australia * Arabic * Al Hayat * LQ
+http://media.islamexplained.com:1935/live/ngrp:ahusa.stream_all/chunklist_w1954046459_b265536.m3u8
+#EXTINF:-1, USA/Australia * Arabic * Al Hayat * MQ
+http://media.islamexplained.com:1935/live/ngrp:ahusa.stream_all/chunklist_w1954046459_b415536.m3u8
+#EXTINF:-1, USA/Australia * Arabic * Al Hayat * HQ
+http://media.islamexplained.com:1935/live/ngrp:ahusa.stream_all/chunklist_w1954046459_b565536.m3u8
+#ORIGINAL: http://media.islamexplained.com:1935/live/ngrp:ahusa.stream_all/playlist.m3u8
+
+#EXTINF:-1, US * Korean + English * GCN USA
+rtmp://199.197.15.131/live/gcn_us_200K.stream
+
+
+
+
+
+
+
+
+#EXTINF:-1, [COLOR yellow]--ENGLISH RADIO STREAMS--[/COLOR]
+rtmp://
+
+#EXTINF:-1, AFRICA * GODTV Africa
+http://ooyalahd2-f.akamaihd.net/i/godtv03_delivery@17352/index_282_a-p.m3u8?sd=10&rebase=on
+
+#EXTINF:-1, ASIA * GODTV Asia
+http://ooyalahd2-f.akamaihd.net/i/godtv05_delivery@17436/index_282_a-p.m3u8?sd=10&rebase=on
+
+#EXTINF:-1, AU * GODTV Australia
+http://ooyalahd2-f.akamaihd.net/i/godtv04_delivery@17353/index_282_a-p.m3u8?sd=10&rebase=on
+
+#EXTINF:-1, AU * LightFM
+http://s7.viastreaming.net:8760/
+
+#EXTINF:-1, AU * UCB Australia
+http://tx.sharp-stream.com/icecast.php?i=ucbau.aac
+
+#EXTINF:-1, CA * CJTL Radio
+http://50.22.253.45:8000/cjtl-fm
+
+#EXTINF:-1, IL * Agape FM * EN and Hebrew
+http://knight.wavestreamer.com:7929/Live
+
+#EXTINF:-1, UK * GODTV UK
+http://ooyalahd2-f.akamaihd.net/i/godtv02_delivery@17351/index_282_a-p.m3u8?sd=10&rebase=on
+
+#EXTINF:-1, US * 3ABN
+http://moiptvus-lh.akamaihd.net/i/moiptv1_1@303632/index_64_a-b.m3u8?sd=10&rebase=on
+
+#EXTINF:-1, US * 3ABN Dare to Dream
+http://moiptvus-lh.akamaihd.net/i/moiptv4_1@304499/index_64_a-b.m3u8?sd=10&rebase=on
+
+#EXTINF:-1, US * 3ABN Proclaim
+http://moiptvus-lh.akamaihd.net/i/moiptv3_1@304498/index_64_a-b.m3u8?sd=10&rebase=on
+
+#EXTINF:-1, US * 3ABN Radio
+http://war.str3am.com:7180/live
+
+#EXTINF:-1, US * 3ABN SonBeam Kids
+http://moiptvus-lh.akamaihd.net/i/moiptv5_1@304500/index_64_a-p.m3u8?sd=10&rebase=on
+
+#EXTINF:-1, US * Boston Praise Radio * AV
+rtmp://origin3-edge2.yourstreamlive.com:1935/live/yourstreamlive/out_1160_2a8n9pcd
+
+#EXTINF:-1, US * Christian Hardrock * MQ
+http://listen.christianhardrock.net/stream/4/
+#EXTINF:-1, US * Christian Hardrock * HQ
+http://listen.christianhardrock.net/stream/3/
+
+#EXTINF:-1, US * Christian Rock * MQ
+http://listen.christianrock.net/stream/2/
+#EXTINF:-1, US * Christian Rock * MQ
+http://listen.christianrock.net/stream/1/
+
+#EXTINF:-1, US * Chistian Power Praise * MQ
+http://listen.christianpowerpraise.net/stream/8/
+#EXTINF:-1, US * Chistian Power Praise * HQ
+http://listen.christianpowerpraise.net/stream/7/
+
+#EXTINF:-1, US * Chistian Classic Rock * MQ
+http://listen.christianhardrock.net/stream/10/
+#EXTINF:-1, US * Chistian Classic Rock * HQ
+http://listen.christianhardrock.net/stream/9/
+
+#EXTINF:-1, US * CBN Radio * Praise
+http://mp3.cbn.com/stream/praise128
+#EXTINF:-1, US * CBN Radio * Cross Country
+http://mp3.cbn.com/stream/country128
+#EXTINF:-1, US * CBN Radio * Contemporary
+http://mp3.cbn.com/stream/contemporary128
+#EXTINF:-1, US * CBN Radio * Gospel
+http://mp3.cbn.com/stream/gospel128
+#EXTINF:-1, US * CBN Radio * SuperBook Kids Radio
+http://mp3.cbn.com/stream/superbook128
+#EXTINF:-1, US * CBN Radio * News
+http://mp3.cbn.com/stream/news64
+#EXTINF:-1, US * CBN Radio * Christmas Radio
+http://mp3.cbn.com/stream/christmas128
+#EXTINF:-1, US * CBN Radio * Cross Country Christmas
+http://mp3.cbn.com/stream/countrychristmas
+
+#EXTINF:-1, US * GODTV USA
+http://ooyalahd2-f.akamaihd.net/i/godtv01_delivery@17341/index_282_a-b.m3u8?sd=10&rebase=on
+
+#EXTINF:-1, US * Gospel Broadcasting Network
+http://live.gospelbroadcastingnetwork.net/live/myStream/chunklist_ao.m3u8
+
+#EXTINF:-1, US * IHOPKC * 24/7 Prayer Room
+http://ihoplive-f.akamaihd.net/i/ihopkc_tprhd@142185/index_150_a-p.m3u8
+
+#EXTINF:-1, US * It's Supernatural
+http://ooyalahd2-f.akamaihd.net/i/chip02_delivery@120189/index_564_a-p.m3u8?sd=10&rebase=on
+
+#EXTINF:-1, US * KNLB Celebration Radio
+http://50.22.253.45:8000/knlb-fm
+
+#EXTINF:-1, US * TBN Church Channel
+http://acaooyalahd2-lh.akamaihd.net/i/TBN02_delivery@186240/index_282_a-b.m3u8?sd=10&rebase=on
+
+#EXTINF:-1, US * TBN JUCE Channel
+http://acaooyalahd2-lh.akamaihd.net/i/TBN03_delivery@186241/index_282_a-b.m3u8?sd=10&rebase=on
+
+#EXTINF:-1, US * TBN Online
+http://acaooyalahd2-lh.akamaihd.net/i/TBN01_delivery@186239/index_282_a-b.m3u8?sd=10&rebase=on
+
+#EXTINF:-1, US * TBN Smile Of A Child
+http://acaooyalahd2-lh.akamaihd.net/i/TBN04_delivery@186242/index_282_a-b.m3u8?sd=10&rebase=on
+
+#EXTINF:-1, US * The Dove
+rtsp://s1.thedove.us:1935/FMtheDove/FMtheDove.sdp
+
+#EXTINF:-1, US * The Word Network
+http://thewordlive-lh.akamaihd.net/i/thewordlive_univ@141816/index_256_a-b.m3u8?sd=10&rebase=on
+
+
+
+
+
+
+
+
+#EXTINF:-1, [COLOR yellow]--INTERNATIONAL RADIO STREAMS--[/COLOR]
+rtmp://
+
+#EXTINF:-1, CA * Amen FM * Tamil + English
+http://ice7.securenetsystems.net/AMENFM
+
+#EXTINF:-1, CO * Aviva2 * Spanish
+http://securemcp.com:1935/Aviva2/default.stream/playlist.m3u8
+
+#EXTINF:-1, CR * TBN Enlace * Costa Rica * Spanish
+http://acaooyalahd2-lh.akamaihd.net/i/TBN07_delivery@186245/index_282_a-b.m3u8?sd=10&rebase=on
+
+#EXTINF:-1, CR * TBN Enlace Juvenil * Costa Rica * Spanish
+http://acaooyalahd2-lh.akamaihd.net/i/TBN08_delivery@186246/index_282_a-b.m3u8?sd=10&rebase=on
+
+#EXTINF:-1, FR * 3ABN Francais
+http://moiptvus-lh.akamaihd.net/i/moiptv6_1@304501/index_64_a-p.m3u8?sd=10&rebase=on
+
+#EXTINF:-1, FR * CNA Sat Live * France * Arabic + Berber + French
+http://str81.creacast.com/cna/live.sdp/chunklist_w1605504934_ao.m3u8
+
+#EXTINF:-1, ID * Indonesian * Bible TV
+http://u.klikhost.com:7120/
+
+#EXTINF:-1, ID * Indonesian * Radio Amsal AM
+http://u.klikhost.com:7098/
+
+#EXTINF:-1, ID * Indonesian * Radio Kidung Agung FM
+http://199.167.134.163:7100/
+
+#EXTINF:-1, ID * Indonesian * Radio Mazmur FM
+http://u.klikhost.com:7118/
+
+#EXTINF:-1, ID * Indonesian * Radio Prestasi FM
+http://u.klikhost.com:7128/
+
+#EXTINF:-1, IN * LANGUAGE UNKNOWN * VTN Velugu
+http://livestream.5centscdn.com/velugutvradio/3b46371ff78bdaf8483a0bc8eec19b33.sdp/playlist.m3u8
+
+#EXTINF:-1, IR * TBN Healing Channel * Arabic * Iran
+http://acaooyalahd2-lh.akamaihd.net/i/TBN06_delivery@186244/index_282_a-b.m3u8?sd=10&rebase=on
+
+#EXTINF:-1, IR * TBN Nejat TV * Arabic * Iran
+http://acaooyalahd2-lh.akamaihd.net/i/TBN05_delivery@186243/index_282_a-b.m3u8?sd=10&rebase=on
+
+#EXTINF:-1, IT * TBN TCI Italy
+http://acaooyalahd2-lh.akamaihd.net/i/TBN12_delivery@186250/index_250_a-b.m3u8?sd=10&rebase=on
+
+#EXTINF:-1, KR * Korean * 93.9 Music FM
+http://aac.cbs.co.kr/cbs939/_definst_/cbs939.stream/playlist.m3u8
+
+#EXTINF:-1, KR * Korean * 98.1 Standard FM
+http://aac.cbs.co.kr/cbs981/_definst_/cbs981.stream/playlist.m3u8
+
+#EXTINF:-1, RU * 3ABN Russia TV
+http://moiptvus-lh.akamaihd.net/i/moiptv7_1@304502/index_64_a-p.m3u8?sd=10&rebase=on
+
+#EXTINF:-1, RU * City Life Radio * Russian
+http://198.178.123.8:8914/stream/1/
+
+#EXTINF:-1, RU * Radio 3ABN Russia
+http://war.str3am.com:7180/Russia
+
+#EXTINF:-1, RU * TBN JUCE Russia
+http://acaooyalahd2-lh.akamaihd.net/i/TBN11_delivery@186249/index_250_a-b.m3u8?sd=10&rebase=on
+
+#EXTINF:-1, RU * TBN Russia
+http://acaooyalahd2-lh.akamaihd.net/i/TBN09_delivery@186247/index_250_a-b.m3u8?sd=10&rebase=on
+
+#EXTINF:-1, RU * TBN Smile Of A Child * Russia
+http://acaooyalahd2-lh.akamaihd.net/i/TBN10_delivery@186248/index_250_a-b.m3u8?sd=10&rebase=on
+
+#EXTINF:-1, US * Fiebre Radio * Spanish
+http://173.193.205.96:8198
+
+#EXTINF:-1, US * Radio 3ABN Latino
+http://war.str3am.com:7180/Latino
+
+#EXTINF:-1, US * Radio Libertad * Spanish
+http://rcri1.com:8000/
+
+#EXTINF:-1, US * Spanish * 3ABN Latino TV
+http://moiptvus-lh.akamaihd.net/i/moiptv2_1@304497/index_64_a-b.m3u8?sd=10&rebase=on
+
+#EXTINF:-1, US * Spanish * CBN Radio * Fiesta Hoy
+http://mp3.cbn.com/stream/hoy128
+
+
+
+
+
+
+
+
+#EXTINF:-1, [COLOR red]--NOT WORKING TV STREAMS--[/COLOR]
+rtmp://
+
+#EXTINF:-1, NOT WORKING * Blessing TV Kids * Tamil
+rtsp://69.28.92.34:1935/blessingtv/mystream
+
+#EXTINF:-1, NOT WORKING * Love World Plus
+rtmp://live.metacdn.com/2050C7/bedkcjfty
+
+#EXTINF:-1, NOT WORKING * Revelation TV * UK
+http://cdn.live.simplestream.com/coder5/coder.channels.channel11/hls/5/playlist.m3u8
+#EXTINF:-1, NOT WORKING * Revelation TV * UK
+http://llnw.live.simplestream.com/coder5/coder.channels.channel11/hls/1/playlist.m3u8
+
+#EXTINF:-1, NOT WORKING * Shine TV
+http://rhemabroadcast-lh/akamaihd.net/z/livestream_1@185937/manifest.f4m
+
+#EXTINF:-1, NOT WORKING * Telepace
+http://live-01.viewer.dacast.com/i/dclive_1@311370/master.m3u8
+
+#EXTINF:-1, NOT WORKING * The Worship Network
+http://worshipnetwork.net/watch/videos/
+
+
+
+
+
+
+
+#EXTINF:-1, [COLOR red]--NOT WORKING RADIO STREAMS--[/COLOR]
+rtmp://
+
+#EXTINF:-1, NOT WORKING * LifeTalk Radio * English
+http://www.lifetalk.net/
+# STREAM DOWN 06 08 2015 BUT TRY AGAIN LATER
+
+#EXTINF:-1, NOT WORKING * Mountain Voice Radio
+http://mountainvoiceradio.org/main/listen-live
+# SITE DOWN 06 08 2015 BUT TRY AGAIN LATER
+
+#EXTINF:-1, NOT WORKING * Radio Eden
+http://www.radioeden.com/
+# SITE DOWN 06 08 2015 BUT TRY AGAIN LATER
+
+

@@ -8,38 +8,55 @@ import re
 import sys
 from t0mm0.common.addon import Addon
 from t0mm0.common.net import Net
-import urlresolver
+import xml.etree.ElementTree as ET
 
 
 addon = Addon('plugin.video.livingstreams', sys.argv)
 net = Net()
-settings = xbmcaddon.Addon( id = 'plugin.video.creationtoday_org' )
-fanart = os.path.join( settings.getAddonInfo( 'path' ), 'fanart.jpg' )
-icon = os.path.join( settings.getAddonInfo( 'path' ), 'icon.png' )
+settings = xbmcaddon.Addon(id='plugin.video.livingstreams')
+fanart = os.path.join(settings.getAddonInfo('path'), 'fanart.jpg')
+test_xml = os.path.join(settings.getAddonInfo('path'), 'streams.xml')
+icon = os.path.join(settings.getAddonInfo('path'), 'icon.png')
 play = addon.queries.get('play', None)
 
 
 def MAIN():
-	addDir('Title', 'URL',Mode As Int,'')
+        addDir('Video Streams', test_xml, 1, '')
+        addDir('Audio Streams', test_xml, 1, '')
+        addDir('Settings', '', 2, '', False)
 ##################################################################################################################################
 
+def addLinks():
+        tree = ET.parse(url)
+        root = tree.getroot()
+        language = settings.getSetting("language")
+        region = settings.getSetting("region")
+        xbmc.log("region = "+region)
+        quality = settings.getSetting("quality")
+        quality = quality.lower()
+        xbmc.log("quality = "+quality)
+        for child in root:
+                urls = child.find('url')
+                if language == "All" and region == "All":
+                        addLink(child.get('name'), urls.find(quality).text, child.find('icon').text)
+                else:
+                        if (child.find('language').text == language or language == "All") and (child.find('region').text == region or region == "All"):
+                                addLink(child.get('name'), urls.find(quality).text, child.find('icon').text)
 
-if play:
-	url = addon.queries.get('url', '')
-	host = addon.queries.get('host', '')
-	media_id = addon.queries.get('media_id', '')
-	stream_url = urlresolver.HostedMediaFile(url=url, host=host, media_id=media_id).resolve()
-	addon.resolve_url(stream_url)
 
+
+
+def openSettings():
+        xbmcaddon.Addon(id='plugin.video.livingstreams').openSettings()
 ##################################################################################################################################
 
 def getUrl(url):
-	req = urllib2.Request(url)
+        req = urllib2.Request(url)
         req.add_header('User-Agent', 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-GB; rv:1.9.0.3) Gecko/2008092417 Firefox/3.0.3')
         response = urllib2.urlopen(req)
         link=response.read()
         response.close()
-	return link
+        return link
 
 ##################################################################################################################################
 
@@ -58,44 +75,57 @@ def get_params():
                         splitparams=pairsofparams[i].split('=')
                         if (len(splitparams))==2:
                                 param[splitparams[0]]=splitparams[1]
-                                
+
         return param
 
 
 ##################################################################################################################################
 
-def addDir(name,url,mode,iconimage):
-        u=sys.argv[0]+"?url="+urllib.quote_plus(url)+"&mode="+str(mode)+"&name="+urllib.quote_plus(name)+"&iconimage="+urllib.quote_plus(iconimage)
-        ok=True
-        liz=xbmcgui.ListItem(name, iconImage=icon, thumbnailImage=icon)
-        liz.setInfo( type="Video", infoLabels={ "Title": name } )
-	liz.setProperty( "Fanart_Image", fanart )
-        xbmcplugin.addDirectoryItem(handle=int(sys.argv[1]),url=u,listitem=liz,isFolder=True)
-        return ok
+def Previous():
+        xbmc.executebuiltin('Action(Back)')
 
 ##################################################################################################################################
-        
-              
-params=get_params()
-url=None
-name=None
-iconimage=None
-mode=None
+
+def addDir(name, url, mode, iconimage, folder=True):
+        u = sys.argv[0]+"?url="+urllib.quote_plus(url)+"&mode="+str(mode)+"&name="+urllib.quote_plus(name)+"&iconimage="+urllib.quote_plus(iconimage)
+        ok = True
+        liz = xbmcgui.ListItem(name, iconImage=icon, thumbnailImage=icon)
+        liz.setInfo(type="Video", infoLabels={"Title": name})
+        liz.setProperty("Fanart_Image", fanart)
+        xbmcplugin.addDirectoryItem(handle=int(sys.argv[1]), url=u, listitem=liz, isFolder=folder)
+        return ok
+
+
+##################################################################################################################################
+
+def addLink(name,url,iconimage):
+        ok=True
+        liz=xbmcgui.ListItem(name, iconImage="DefaultVideo.png", thumbnailImage=iconimage)
+        liz.setInfo( type="Video", infoLabels={ "Title": name } )
+        ok=xbmcplugin.addDirectoryItem(handle=int(sys.argv[1]),url=url,listitem=liz)
+        return ok
+
+
+params = get_params()
+url = None
+name = None
+iconimage = None
+mode = None
 
 try:
-        url=urllib.unquote_plus(params["url"])
+        url = urllib.unquote_plus(params["url"])
 except:
         pass
 try:
-        name=urllib.unquote_plus(params["name"])
+        name = urllib.unquote_plus(params["name"])
 except:
         pass
 try:
-        iconimage=urllib.unquote_plus(params["iconimage"])
+        iconimage = urllib.unquote_plus(params["iconimage"])
 except:
         pass
 try:
-        mode=int(params["mode"])
+        mode = int(params["mode"])
 except:
         pass
 
@@ -103,15 +133,12 @@ xbmc.log("Mode: "+str(mode))
 xbmc.log("URL: "+str(url))
 xbmc.log("Name: "+str(name))
 
-if mode==None or url==None or len(url)<1:
-        xbmc.log ("")
+if mode == None:
+        xbmc.log("")
         MAIN()
-
-
+elif mode == 1:
+        addLinks()
+elif mode == 2:
+        openSettings()
 
 xbmcplugin.endOfDirectory(int(sys.argv[1]))
-
-
-
-
-

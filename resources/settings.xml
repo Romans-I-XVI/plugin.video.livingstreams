@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+	<category label="Settings">
+	<setting id="quality" type="select" label="Stream Quality" values="Low|Med|High" default="High"/>
+	<setting id="language" label="Filter Language" type="select" default="English"    values="All|English|Arabic (اللغة العربية)|Armenian (Հայերեն)|Bulgarian (български език)|Chinese (达伟)|Danish (Dansk)|Dutch (Nederlands)|Finnish (Suomi)|French (Français)|Georgian (ქართული)|German (Deutsch)|Greek (Ελληνικά)|Hebrew (עברית)|Hungarian (Magyar)|Icelandic (Íslenska)|Indonesian (Bahasa Indonesia)|Inuktitut (ᐃᓄᒃᑎᑐᑦ)|Italian (Italiano)|Japanese (日本語)|Korean (조선말)|Lao (ພາສາລາວ)|Lithuanian (Lietuvių)|Malayalam (بهاس ملايو)|Norwegian (Norsk)|Persian (فارسی)|Polish (Polski)|Portuguese (Português)|Russian (Русский)|Spanish (Español)|Swedish (Svenska)|Turkish (Türkçe)|Urdu (ہندوستانی)|Vietnamese (Tiếng Việt)" />
+	<setting id="region" label="Filter Region" type="select" default="All"    values="All|USA|Australia|Asia|Africa" /> 
+	</category> 
+</settings>
