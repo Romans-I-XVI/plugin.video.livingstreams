@@ -15,20 +15,22 @@ addon = Addon('plugin.video.livingstreams', sys.argv)
 net = Net()
 settings = xbmcaddon.Addon(id='plugin.video.livingstreams')
 fanart = os.path.join(settings.getAddonInfo('path'), 'fanart.jpg')
-test_xml = os.path.join(settings.getAddonInfo('path'), 'streams.xml')
+video_streams = os.path.join(settings.getAddonInfo('path'), 'video_streams.xml')
+audio_streams = os.path.join(settings.getAddonInfo('path'), 'audio_streams.xml')
 icon = os.path.join(settings.getAddonInfo('path'), 'icon.png')
 play = addon.queries.get('play', None)
 
 
 def MAIN():
-        addDir('Video Streams', test_xml, 1, '')
-        addDir('Audio Streams', test_xml, 1, '')
+        addDir('Video Streams', video_streams, 1, '')
+        addDir('Audio Streams', audio_streams, 1, '')
         addDir('Settings', '', 2, '', False)
 ##################################################################################################################################
 
 def addLinks():
         tree = ET.parse(url)
         root = tree.getroot()
+        media_type = root.get('type')
         language = settings.getSetting("language")
         region = settings.getSetting("region")
         xbmc.log("region = "+region)
@@ -36,12 +38,16 @@ def addLinks():
         quality = quality.lower()
         xbmc.log("quality = "+quality)
         for child in root:
-                urls = child.find('url')
+                if media_type == 'video':
+                        urls = child.find('url')
+                        media_url = urls.find(quality).text
+                elif media_type == 'audio':
+                        media_url = child.find('url').text
                 if language == "All" and region == "All":
-                        addLink(child.get('name'), urls.find(quality).text, child.find('icon').text)
+                        addLink(child.get('name'), media_url, child.find('icon').text)
                 else:
                         if (child.find('language').text == language or language == "All") and (child.find('region').text == region or region == "All"):
-                                addLink(child.get('name'), urls.find(quality).text, child.find('icon').text)
+                                addLink(child.get('name'), media_url, child.find('icon').text)
 
 
 
