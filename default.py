@@ -50,10 +50,46 @@ def addLinks():
                                 addLink(child.get('name'), media_url, child.find('icon').text)
 
 
-
-
 def openSettings():
+        updateSettings()
         xbmcaddon.Addon(id='plugin.video.livingstreams').openSettings()
+
+
+def updateSettings():
+        settings_file = os.path.join(settings.getAddonInfo('path'), 'resources', 'settings.xml')
+        available = {'language': "All", 'region': "All"}
+        array = {'language': [], 'region': []}
+        language_array = []
+        region_array = []
+        settings_tree = ET.parse(settings_file)
+        settings_category = settings_tree.getroot()[0]
+        source_trees = [ET.parse(video_streams), ET.parse(audio_streams)]
+
+        for tree in source_trees:
+                root = tree.getroot()
+                for stream in root:
+                        options = {'language': stream.find('language').text, 'region': stream.find('region').text}
+                        for option in options:
+                                already_exists = False
+                                for item in array[option]:
+                                        if item == options[option]:
+                                                already_exists = True
+                                                break
+                                if not already_exists:
+                                        array[option].append(options[option])
+        for option in array:
+                array[option] = sorted(array[option], key=str.lower)
+                for item in array[option]:
+                        available[option] += '|'+item
+
+        i = 0
+        for setting in settings_category:
+                for option in available:
+                        if setting.get('id') == option:
+                                settings_category[i].set('values', available[option])
+                i = i + 1
+        settings_tree.write(settings_file)
+
 ##################################################################################################################################
 
 def getUrl(url):
@@ -140,7 +176,6 @@ xbmc.log("URL: "+str(url))
 xbmc.log("Name: "+str(name))
 
 if mode == None:
-        xbmc.log("")
         MAIN()
 elif mode == 1:
         addLinks()

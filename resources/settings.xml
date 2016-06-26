@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <settings>
 	<category label="Settings">
-	<setting id="quality" type="select" label="Stream Quality" values="Low|Med|High" default="High"/>
-	<setting id="language" label="Filter Language" type="select" default="English"    values="All|English" />
-	<setting id="region" label="Filter Region" type="select" default="All"    values="All|USA|Australia|Asia|Africa|Canada|Greece|United Kingdom" /> 
+	<setting default="High" id="quality" label="Stream Quality" type="select" values="Low|Med|High" />
+	<setting default="English" id="language" label="Filter Language" type="select" values="All|English" />
+	<setting default="All" id="region" label="Filter Region" type="select" values="All|Africa|Asia|Australia|Canada|Greece|United Kingdom|USA" /> 
 	</category> 
 </settings>
