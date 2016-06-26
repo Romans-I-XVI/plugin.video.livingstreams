@@ -44,10 +44,10 @@ def addLinks():
                 elif media_type == 'audio':
                         media_url = child.find('url').text
                 if language == "All" and region == "All":
-                        addLink(child.get('name'), media_url, child.find('icon').text)
+                        addLink(child.get('name'), media_url, child.find('icon').text, child.find('fanart').text)
                 else:
                         if (child.find('language').text == language or language == "All") and (child.find('region').text == region or region == "All"):
-                                addLink(child.get('name'), media_url, child.find('icon').text)
+                                addLink(child.get('name'), media_url, child.find('icon').text, child.find('fanart').text)
 
 
 def openSettings():
@@ -140,10 +140,11 @@ def addDir(name, url, mode, iconimage, folder=True):
 
 ##################################################################################################################################
 
-def addLink(name,url,iconimage):
+def addLink(name,url,iconimage, fanart):
         ok=True
         liz=xbmcgui.ListItem(name, iconImage="DefaultVideo.png", thumbnailImage=iconimage)
         liz.setInfo( type="Video", infoLabels={ "Title": name } )
+        liz.setArt({ 'fanart': fanart })
         ok=xbmcplugin.addDirectoryItem(handle=int(sys.argv[1]),url=url,listitem=liz)
         return ok
 
