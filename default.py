@@ -15,39 +15,53 @@ addon = Addon('plugin.video.livingstreams', sys.argv)
 net = Net()
 settings = xbmcaddon.Addon(id='plugin.video.livingstreams')
 fanart = os.path.join(settings.getAddonInfo('path'), 'fanart.jpg')
-video_streams = os.path.join(settings.getAddonInfo('path'), 'video_streams.xml')
-audio_streams = os.path.join(settings.getAddonInfo('path'), 'audio_streams.xml')
+streams = os.path.join(settings.getAddonInfo('path'), 'LSTV-KODI-ADDON.xml')
 icon = os.path.join(settings.getAddonInfo('path'), 'icon.png')
 play = addon.queries.get('play', None)
 
 
 def MAIN():
-        addDir('Video Streams', video_streams, 1, '')
-        addDir('Audio Streams', audio_streams, 1, '')
-        addDir('Settings', '', 2, '', False)
+        addDir('Video Streams', streams, 1, '')
+        addDir('Audio Streams', streams, 2, '')
+        addDir('Settings', '', 3, '', False)
 ##################################################################################################################################
 
-def addLinks():
-        tree = ET.parse(url)
+def addLinks(link_type):
+        tree = ET.parse(streams)
         root = tree.getroot()
-        media_type = root.get('type')
         language = settings.getSetting("language")
         region = settings.getSetting("region")
         xbmc.log("region = "+region)
         quality = settings.getSetting("quality")
         quality = quality.lower()
         xbmc.log("quality = "+quality)
+        i = 1
         for child in root:
-                if media_type == 'video':
-                        urls = child.find('url')
-                        media_url = urls.find(quality).text
-                elif media_type == 'audio':
-                        media_url = child.find('url').text
-                if language == "All" and region == "All":
-                        addLink(child.get('name'), media_url, child.find('icon').text, child.find('fanart').text)
-                else:
-                        if (child.find('language').text == language or language == "All") and (child.find('region').text == region or region == "All"):
-                                addLink(child.get('name'), media_url, child.find('icon').text, child.find('fanart').text)
+                i = i +1
+                # xbmc.log(str(i))
+                # xbmc.log(child.find('type').text)
+                # xbmc.log(link_type)
+                media_url = None
+                if child.find('type').text == link_type:
+                        xbmc.log(str(i))
+                        if child.find('type').text == 'video':
+                                urls = child.find('url')
+                                if urls.find('ss') != None:
+                                        media_url = urls.find('ss').text
+                                elif urls.find(quality) != None:
+                                        media_url = urls.find(quality).text
+                                elif len(urls) > 0:
+                                        media_url = urls[len(urls)-1].text
+                        elif child.find('type').text == 'audio':
+                                urls = child.find('url')
+                                if urls.find('ss') != None:
+                                        media_url = urls.find('ss').text
+                        if media_url != None:
+                                if language == "All" and region == "All":
+                                        addLink(child.get('name'), media_url, child.find('icon').text, child.find('fanart').text)
+                                else:
+                                        if (child.find('language').text == language or language == "All") and (child.find('region').text == region or region == "All"):
+                                                addLink(child.get('name'), media_url, child.find('icon').text, child.find('fanart').text)
 
 
 def openSettings():
@@ -63,20 +77,19 @@ def updateSettings():
         region_array = []
         settings_tree = ET.parse(settings_file)
         settings_category = settings_tree.getroot()[0]
-        source_trees = [ET.parse(video_streams), ET.parse(audio_streams)]
+        tree = ET.parse(streams)
+        root = tree.getroot()
+        for stream in root:
+                options = {'language': stream.find('language').text, 'region': stream.find('region').text}
+                for option in options:
+                        already_exists = False
+                        for item in array[option]:
+                                if item == options[option]:
+                                        already_exists = True
+                                        break
+                        if not already_exists and options[option] != None:
+                                array[option].append(options[option])
 
-        for tree in source_trees:
-                root = tree.getroot()
-                for stream in root:
-                        options = {'language': stream.find('language').text, 'region': stream.find('region').text}
-                        for option in options:
-                                already_exists = False
-                                for item in array[option]:
-                                        if item == options[option]:
-                                                already_exists = True
-                                                break
-                                if not already_exists:
-                                        array[option].append(options[option])
         for option in array:
                 array[option] = sorted(array[option], key=str.lower)
                 for item in array[option]:
@@ -179,8 +192,10 @@ xbmc.log("Name: "+str(name))
 if mode == None:
         MAIN()
 elif mode == 1:
-        addLinks()
+        addLinks("video")
 elif mode == 2:
+        addLinks("audio")
+elif mode == 3:
         openSettings()
 
 xbmcplugin.endOfDirectory(int(sys.argv[1]))
