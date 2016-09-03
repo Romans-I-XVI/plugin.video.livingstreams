@@ -15,26 +15,25 @@ addon = Addon('plugin.video.livingstreams', sys.argv)
 net = Net()
 settings = xbmcaddon.Addon(id='plugin.video.livingstreams')
 fanart = os.path.join(settings.getAddonInfo('path'), 'fanart.jpg')
-streams = os.path.join(settings.getAddonInfo('path'), 'LSTV-KODI-ADDON.xml')
+streams_url = "http://lvstr.org/kodi-addon"
 icon = os.path.join(settings.getAddonInfo('path'), 'icon.png')
 play = addon.queries.get('play', None)
 
 
 def MAIN():
-        addDir('Video Streams', streams, 1, '')
-        addDir('Audio Streams', streams, 2, '')
+        addDir('Video Streams', streams_url, 1, '')
+        addDir('Audio Streams', streams_url, 2, '')
         addDir('Settings', '', 3, '', False)
 ##################################################################################################################################
 
 def addLinks(link_type):
-        tree = ET.parse(streams)
-        root = tree.getroot()
+        root = ET.fromstring(getUrl(streams_url))
         language = settings.getSetting("language")
         region = settings.getSetting("region")
-        xbmc.log("region = "+region)
+        # xbmc.log("region = "+region)
         quality = settings.getSetting("quality")
         quality = quality.lower()
-        xbmc.log("quality = "+quality)
+        # xbmc.log("quality = "+quality)
         i = 1
         for child in root:
                 i = i +1
@@ -43,7 +42,7 @@ def addLinks(link_type):
                 # xbmc.log(link_type)
                 media_url = None
                 if child.find('type').text == link_type:
-                        xbmc.log(str(i))
+                        # xbmc.log(str(i))
                         if child.find('type').text == 'video':
                                 urls = child.find('url')
                                 if urls.find('ss') != None:
@@ -77,8 +76,7 @@ def updateSettings():
         region_array = []
         settings_tree = ET.parse(settings_file)
         settings_category = settings_tree.getroot()[0]
-        tree = ET.parse(streams)
-        root = tree.getroot()
+        root = ET.fromstring(getUrl(streams_url))
         for stream in root:
                 options = {'language': stream.find('language').text, 'region': stream.find('region').text}
                 for option in options:
@@ -185,9 +183,9 @@ try:
 except:
         pass
 
-xbmc.log("Mode: "+str(mode))
-xbmc.log("URL: "+str(url))
-xbmc.log("Name: "+str(name))
+# xbmc.log("Mode: "+str(mode))
+# xbmc.log("URL: "+str(url))
+# xbmc.log("Name: "+str(name))
 
 if mode == None:
         MAIN()
