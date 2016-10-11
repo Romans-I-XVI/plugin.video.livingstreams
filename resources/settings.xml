@@ -1,13 +1,14 @@
 <settings>
-	<setting default="High" id="quality" label="Stream Quality" type="select" values="Low|Med|High" />
-	<setting label="Language Settings" type="lsep" />
-	<setting default="English" id="video-language" label="TV" type="select" values="All|English" />
-	<setting default="English" id="audio-language" label="Radio" type="select" values="All|English" />
-	<setting default="English" id="audio-bible-language" label="Audio Bibles" type="select" values="All|English" />
-	<setting default="true" id="multilanguage-enabled" label="Show Multilanguage Streams" type="bool" />
-	<setting label="Region Settings" type="lsep" />
-	<setting default="All" id="video-region" label="TV" type="select" values="All" /> 
-	<setting default="All" id="audio-region" label="Radio" type="select" values="All" /> 
-	<setting default="All" id="audio-bible-region" label="Audio Bibles" type="select" values="All" /> 
-
+	<category label="Settings">
+		<setting default="High" id="quality" label="Stream Quality" type="select" values="Low|Med|High" />
+		<setting label="Region Settings" type="lsep" />
+		<setting default="All" id="video-region" label="TV" type="select" values="All" /> 
+		<setting default="All" id="audio-region" label="Radio" type="select" values="All" /> 
+		<setting default="All" id="audio-bible-region" label="Audio Bibles" type="select" values="All" /> 
+		<setting label="Language Settings" type="lsep" />
+		<setting default="English" id="video-language" label="TV" type="select" values="All|English" />
+		<setting default="English" id="audio-language" label="Radio" type="select" values="All|English" />
+		<setting default="English" id="audio-bible-language" label="Audio Bibles" type="select" values="All|English" />
+		<setting default="true" id="multilanguage-enabled" label="Show Multilanguage Streams" type="bool" />
+	</category> 
 </settings>
