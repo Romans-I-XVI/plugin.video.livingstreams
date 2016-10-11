@@ -22,22 +22,24 @@ play = addon.queries.get('play', None)
 
 
 def MAIN():
-        addDir('Video Streams', streams_url, 1, '')
-        addDir('Audio Streams', streams_url, 2, '')
-        addDir('Settings', '', 3, '', False)
+        addDir('TV', streams_url, 1, '')
+        addDir('Radio', streams_url, 2, '')
+        addDir('Audio Bibles', streams_url, 3, '')
+        addDir('Settings', '', 4, '', False)
 ##################################################################################################################################
 
 def addLinks(link_type):
         root = ET.fromstring(getUrl(streams_url))
-        language = settings.getSetting("language")
-        region = settings.getSetting("region")
+        language = settings.getSetting(link_type+"-language")
+        region = settings.getSetting(link_type+"-region")
         # xbmc.log("region = "+region)
         quality = settings.getSetting("quality")
         quality = quality.lower()
+        multilanguage_enabled = settings.getSetting("multilanguage-enabled")
         # xbmc.log("quality = "+quality)
-        i = 1
+        # i = 1
         for child in root:
-                i = i +1
+                # i = i +1
                 # xbmc.log(str(i))
                 # xbmc.log(child.find('type').text)
                 # xbmc.log(link_type)
@@ -52,24 +54,28 @@ def addLinks(link_type):
                                         media_url = urls.find(quality).text
                                 elif len(urls) > 0:
                                         media_url = urls[len(urls)-1].text
-                        elif child.find('type').text == 'audio':
+                        elif child.find('type').text == 'audio' or child.find('type').text == 'audio-bible':
                                 urls = child.find('url')
                                 if urls.find('ss') != None:
                                         media_url = urls.find('ss').text
                         if media_url != None:
                                 if language == "All" and region == "All":
-                                        addLink(child.get('name'), media_url, child.find('icon').text, child.find('fanart').text)
+                                        if multilanguage_enabled == "true" or len(child.find('languages')) == 1:
+                                                addLink(child.get('name'), media_url, child.find('icon').text, child.find('fanart').text)
                                 else:
                                         includes_language = False
+
                                         for stream_language in child.find('languages'):
                                                 stream_language = stream_language.text
                                                 if isinstance(stream_language, unicode):
-                                                        stream_language = unicodedata.normalize('NFKD', stream_language).encode('ascii','ignore')
+                                                        stream_language = unicodedata.normalize('NFKD', stream_language).encode('ascii', 'ignore')
                                                 if stream_language == language:
                                                         includes_language = True
                                                         break
+
                                         if (includes_language or language == "All") and (child.find('region').text == region or region == "All"):
-                                                addLink(child.get('name'), media_url, child.find('icon').text, child.find('fanart').text)
+                                                if multilanguage_enabled == "true" or len(child.find('languages')) == 1:
+                                                        addLink(child.get('name'), media_url, child.find('icon').text, child.find('fanart').text)
 
 
 def openSettings():
@@ -79,27 +85,28 @@ def openSettings():
 
 def updateSettings():
         settings_file = os.path.join(settings.getAddonInfo('path'), 'resources', 'settings.xml')
-        available = {'language': "All|English", 'region': "All"}
-        array = {'language': [], 'region': []}
-        language_array = []
-        region_array = []
+        available = {'video-language': "All|English", 'audio-language': "All|English", 'audio-bible-language': "All|English", 'video-region': "All", 'audio-region': "All", 'audio-bible-region': "All"}
+        array = {'video-language': [], 'audio-language': [], 'audio-bible-language': [], 'video-region': [], 'audio-region': [], 'audio-bible-region': []}
         settings_tree = ET.parse(settings_file)
         settings_category = settings_tree.getroot()[0]
         root = ET.fromstring(getUrl(streams_url))
         for stream in root:
+                language_type = stream.find('type').text+'-language'
+                region_type = stream.find('type').text+'-region'
+
                 # Add the region to the array if necessary
                 region = stream.find('region').text
                 if isinstance(region, unicode):
                         region = unicodedata.normalize('NFKD', region).encode('ascii','ignore')
 
                 already_exists = False
-                for item in array['region']:
+                for item in array[region_type]:
                         if item == region:
                                 already_exists = True
                                 break
 
                 if not already_exists and region != None:
-                        array['region'].append(region)
+                        array[region_type].append(region)
 
                 # Add the language to the array if necessary
                 already_exists = False
@@ -107,12 +114,12 @@ def updateSettings():
                         language = language.text
                         if isinstance(language, unicode):
                                 language = unicodedata.normalize('NFKD', language).encode('ascii','ignore')
-                        for item in array['language']:
+                        for item in array[language_type]:
                                 if item == language:
                                         already_exists = True
                                         break
                         if not already_exists and language != None and language != "English":
-                                array['language'].append(language)
+                                array[language_type].append(language)
 
 
         for option in array:
@@ -221,6 +228,8 @@ elif mode == 1:
 elif mode == 2:
         addLinks("audio")
 elif mode == 3:
+        addLinks("audio-bible")
+elif mode == 4:
         openSettings()
 
 xbmcplugin.endOfDirectory(int(sys.argv[1]))
